@@ -1,0 +1,20 @@
+.qq-chat-box,
+.bulletin,
+#csdn-toolbar .left-menu,
+#csdn-toolbar .gitChat,
+.recommend-box,
+.csdn-tracking-statistics.mb8,
+#asideNewArticle,
+#asideCategory,
+#asideArchive,
+#asideHotArticle,
+#asideFooter,
+.box-box-large,
+.s-hl-content,
+#dmp_ad_58{
+    display: none !important;
+}
+.recommend-right,
+.fourth_column{
+    visibility: hidden !important;
+}

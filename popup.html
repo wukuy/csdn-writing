@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>menu</title>
+    <style>
+        body{
+            margin: 0;
+            cursor: pointer;
+            user-select:none;
+        }
+        .menu-wrap {
+            width: 120px;
+        }
+        .menu-wrap ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .menu-wrap ul li{
+            line-height: 46px;
+            color: #333;
+            transition: all .3s;
+            padding: 0;
+            font-size: 14px;
+            text-align: center;
+        }
+        .menu-wrap ul li:hover{
+            background: #1296db;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-wrap">
+        <ul>
+            <li class="manage">管理文章</li>
+            <li class="write">书写文章</li>
+        </ul>
+    </div>
+    <script type="text/javascript" src="./js/jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="./js/popup.js"></script>
+</body>
+</html>
